@@ -1,0 +1,73 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36327.8 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Agent-Framework-1-OpenAI", "Agent-Framework-1\Agent-Framework-1-OpenAI.csproj", "{E2952A27-16C2-2677-96E9-E8FDCFB4256D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Agent-Framework-2-Function-Tools", "Agent-Framework-2-Function-Tools\Agent-Framework-2-Function-Tools.csproj", "{A55FE101-B44C-62AD-79A6-3C49023D24A5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Agent-Framework-3-Agent-as-Function-Tools", "Agent-Framework-3-Agent-as-Function-Tools\Agent-Framework-3-Agent-as-Function-Tools.csproj", "{130C96D8-6EC7-7EAD-AAA2-E1AF34704E39}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Agent-Framework-4-Human-in-the-Loop", "Agent-Framework-4-Human-in-the-Loop\Agent-Framework-4-Human-in-the-Loop.csproj", "{4BDB15C2-DB06-3E89-2C7F-832FA709F42C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Agent-Framework-5-Memories", "Agent-Framework-5-Memories\Agent-Framework-5-Memories.csproj", "{12ECCEF7-03A3-40FC-54CD-4DAAC2495F02}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Agent-Framework-6-Background-Responses", "Agent-Framework-6-Background-Responses\Agent-Framework-6-Background-Responses.csproj", "{9F70E3C7-21E1-C932-1C38-2D34ABABDD26}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Agent-Framework-7-Existing-Agent-as-MCP-Tool", "Agent-Framework-7-Existin-Agent-as-MCP-Tool\Agent-Framework-7-Existing-Agent-as-MCP-Tool.csproj", "{722166D4-FF5C-4582-68C7-C70494D3A26F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Agent-Framework-8-AWeber-Newsletter", "Agent-Framework-8-AWeber-Newsletter\Agent-Framework-8-AWeber-Newsletter.csproj", "{DE118C6D-B52B-99F4-0387-08C8EB72276C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Agent-Framework-9-Basic-RAG", "Agent-Framework-9-Basic-RAG\Agent-Framework-9-Basic-RAG.csproj", "{5CFE92EF-B4C3-1334-5638-FF2EB9B57600}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E2952A27-16C2-2677-96E9-E8FDCFB4256D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2952A27-16C2-2677-96E9-E8FDCFB4256D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2952A27-16C2-2677-96E9-E8FDCFB4256D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2952A27-16C2-2677-96E9-E8FDCFB4256D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A55FE101-B44C-62AD-79A6-3C49023D24A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A55FE101-B44C-62AD-79A6-3C49023D24A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A55FE101-B44C-62AD-79A6-3C49023D24A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A55FE101-B44C-62AD-79A6-3C49023D24A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{130C96D8-6EC7-7EAD-AAA2-E1AF34704E39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{130C96D8-6EC7-7EAD-AAA2-E1AF34704E39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{130C96D8-6EC7-7EAD-AAA2-E1AF34704E39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{130C96D8-6EC7-7EAD-AAA2-E1AF34704E39}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4BDB15C2-DB06-3E89-2C7F-832FA709F42C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BDB15C2-DB06-3E89-2C7F-832FA709F42C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BDB15C2-DB06-3E89-2C7F-832FA709F42C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BDB15C2-DB06-3E89-2C7F-832FA709F42C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12ECCEF7-03A3-40FC-54CD-4DAAC2495F02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12ECCEF7-03A3-40FC-54CD-4DAAC2495F02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12ECCEF7-03A3-40FC-54CD-4DAAC2495F02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12ECCEF7-03A3-40FC-54CD-4DAAC2495F02}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F70E3C7-21E1-C932-1C38-2D34ABABDD26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F70E3C7-21E1-C932-1C38-2D34ABABDD26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F70E3C7-21E1-C932-1C38-2D34ABABDD26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F70E3C7-21E1-C932-1C38-2D34ABABDD26}.Release|Any CPU.Build.0 = Release|Any CPU
+		{722166D4-FF5C-4582-68C7-C70494D3A26F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{722166D4-FF5C-4582-68C7-C70494D3A26F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{722166D4-FF5C-4582-68C7-C70494D3A26F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{722166D4-FF5C-4582-68C7-C70494D3A26F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE118C6D-B52B-99F4-0387-08C8EB72276C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE118C6D-B52B-99F4-0387-08C8EB72276C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE118C6D-B52B-99F4-0387-08C8EB72276C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE118C6D-B52B-99F4-0387-08C8EB72276C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5CFE92EF-B4C3-1334-5638-FF2EB9B57600}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CFE92EF-B4C3-1334-5638-FF2EB9B57600}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CFE92EF-B4C3-1334-5638-FF2EB9B57600}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CFE92EF-B4C3-1334-5638-FF2EB9B57600}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B97FC097-299F-4D44-8653-9813A29669E8}
+	EndGlobalSection
+EndGlobal

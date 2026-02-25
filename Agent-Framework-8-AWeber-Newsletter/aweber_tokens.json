@@ -1,0 +1,8 @@
+{
+  "client_id": "YOUR_AWEBER_CLIENT_ID",
+  "client_secret": "YOUR_AWEBER_CLIENT_SECRET",
+  "access_token": "YOUR_AWEBER_ACCESS_TOKEN",
+  "refresh_token": "YOUR_AWEBER_REFRESH_TOKEN",
+  "account_id": "",
+  "list_id": ""
+}
